@@ -1,0 +1,73 @@
+.jumbotron {
+	background-color: black;
+}
+.navbar-inverse {
+	background: red;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+body {
+	background-color: #646c6f;
+	color: white;
+	margin: auto;
+}	
+
+div.gallery {
+	margin: 10px;
+	border: none;
+	float: left;
+	width: 250px;
+  }
+  div.gallery img {
+	width: 100%;
+	height: auto;
+  }
+
+div.jumbotron a {
+	color: white;
+}
+
+.images {
+
+	justify-content: center;
+	margin-left: 5rem;
+}
+
+.about{
+    margin: 4em 0;
+    padding: 1em;
+    position: relative;
+   }
+.about h1{
+color: white;
+margin: 2em;
+}
+.about img{
+height: 100%;
+    width: 100%;
+	border-radius: 0%;
+}
+.about span{
+    display: block;
+	color: white;
+    position: absolute;
+    left: 115px;
+}
+.about .desc{
+    padding: 2em;
+    border-left:4px solid white;
+}
+.about .desc h3{
+    color: white;
+}
+.about .desc p{
+    line-height:4;
+    color: white;
+}
